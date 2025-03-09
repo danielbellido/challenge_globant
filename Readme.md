@@ -7,16 +7,16 @@ Este proyecto consiste en la migración de datos desde archivos CSV a una base d
 ```
 /
 ├── api/
-�?  ├── main.py  # Código de la API REST
-�?  ├── database.py  # Conexión a MySQL
+│   ├── main.py  # Código de la API REST
+│   ├── database.py  # Conexión a MySQL
 ├── data/
-�?  ├── departments.csv  # Datos de departamentos
-�?  ├── jobs.csv  # Datos de trabajos
-�?  ├── hired_employees.csv  # Datos de empleados
+│   ├── departments.csv  # Datos de departamentos
+│   ├── jobs.csv  # Datos de trabajos
+│   ├── hired_employees.csv  # Datos de empleados
 ├── avro/
-�?  ├── export_to_avro.py  # Script de exportación a AVRO
-�?  ├── restore_from_avro.py  # Script de restauración desde AVRO
-�?  ├── schemas/  # Definiciones de esquema AVRO
+│   ├── export_to_avro.py  # Script de exportación a AVRO
+│   ├── restore_from_avro.py  # Script de restauración desde AVRO
+│   ├── schemas/  # Definiciones de esquema AVRO
 ├── Dockerfile  # Configuración para Docker
 ├── README.md  # Documentación
 └── requirements.txt  # Dependencias del proyecto
@@ -92,7 +92,7 @@ docker build -t data-engineer-api .
 docker run -p 5000:5000 --env-file .env data-engineer-api
 ```
 
-## �?Despliegue en AWS
+## ☁ Despliegue en AWS
 - **Base de Datos:** Se usó **Amazon RDS** con MySQL.
 - **API:** Puede desplegarse en **AWS Lambda** con API Gateway o en un **EC2**.
 - **Archivos AVRO:** Se pueden almacenar en **Amazon S3**.
@@ -108,4 +108,6 @@ docker run -p 5000:5000 --env-file .env data-engineer-api
 Si deseas contribuir, por favor abre un **Pull Request** con tus cambios.
 
 ---
+
+¡Listo! 🚀 Ahora el proyecto está documentado y listo para ser desplegado. 😃
 
