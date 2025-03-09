@@ -25,7 +25,7 @@ Este proyecto consiste en la migración de datos desde archivos CSV a una base d
 ## 🚀 Instalación y Configuración
 ### 1️⃣ Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/nombre-repo.git
+git clone https://github.com/danielbellido/challenge_globant.git
 cd nombre-repo
 ```
 
