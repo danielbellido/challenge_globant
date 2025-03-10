@@ -97,7 +97,3 @@ python avro/restore_from_avro.py
 - Se usa `.env` para evitar exponer credenciales.
 - Se pueden agregar **tokens JWT** para autenticación.
 
----
-
-¡Listo! 🚀 Ahora el proyecto está documentado y listo para ser desplegado. 😃
-
