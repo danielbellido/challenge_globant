@@ -85,13 +85,6 @@ python avro/export_to_avro.py
 python avro/restore_from_avro.py
 ```
 
-## 🐳 Despliegue con Docker
-### Construir y ejecutar el contenedor
-```bash
-docker build -t data-engineer-api .
-docker run -p 5000:5000 --env-file .env data-engineer-api
-```
-
 ## ☁ Despliegue en AWS
 - **Base de Datos:** Se usó **Amazon RDS** con MySQL.
 - **API:** Puede desplegarse en **AWS Lambda** con API Gateway o en un **EC2**.
@@ -103,9 +96,6 @@ docker run -p 5000:5000 --env-file .env data-engineer-api
 - Se validan los datos de entrada en el `POST`.
 - Se usa `.env` para evitar exponer credenciales.
 - Se pueden agregar **tokens JWT** para autenticación.
-
-## 📌 Contribuciones
-Si deseas contribuir, por favor abre un **Pull Request** con tus cambios.
 
 ---
 
